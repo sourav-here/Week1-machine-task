@@ -9,7 +9,7 @@ void main(){
 
     // numbers.forEach((element));
 
-    int newList = numbers.fold(25,());
+    int newList = numbers.fold(25,(a,b) => a+b);
 
     print("After Adding elements $newList");
 
